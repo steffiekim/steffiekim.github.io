@@ -7,6 +7,49 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/* making Iframe interactive */
+.myIframe {
+     position: relative;
+     padding-bottom: 65.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: auto;
+     -webkit-overflow-scrolling:touch; /*<<--- Enabling scroll bar */
+     border: dotted lightgray 1px;
+}
+.myIframe iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+
+
+/* Text link over image in Research Projects page */
+a {
+    position: relative;
+    display: inline-block;
+}
+
+a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15%;
+    margin-left: -50%;
+    width: 100%;
+    height: 40%;
+    color: #000000;
+	text-align: center;
+    font: inherit;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.1);
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
