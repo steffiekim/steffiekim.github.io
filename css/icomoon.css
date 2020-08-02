@@ -25,6 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-linkedin:before {
   content: "\e903";
   color: #0077b5;
