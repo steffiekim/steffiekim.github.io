@@ -11,6 +11,12 @@
 *	Edit this section
 *
 * ======================================================= */
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
 div.research {
   padding-left: 3.5em;
   padding-right: 3.5em;}
