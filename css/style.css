@@ -32,10 +32,10 @@ p.teaching::first-letter {
 body {
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   background: #fafafa;
-  color: gray; }
+  color: rgb(74, 74, 74); }
   body.menu-show {
     overflow: hidden;
     position: fixed;
