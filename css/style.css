@@ -1006,15 +1006,16 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #150f70;
-  color: #fff;
+  background: #fff;
+  color: #150F70;
   border: 2px solid #150f70; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #150F70 !important;
+    background: #fff !important;
+    color: #150F70 !important;
     border-color:#150F70!important; }
   .btn-primary.btn-outline {
-    background: #fff;
-    color: #150F70;
+    background: #150F70;
+    color: #fff;
     border: 1px solid #150F70; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: rgb(168, 168, 168);
