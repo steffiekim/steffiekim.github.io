@@ -171,6 +171,8 @@
 		contentWayPoint();
 		owlCarouselFeatureSlide();
 	});
+  }
 
 
-}());
+
+());

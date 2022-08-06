@@ -51,7 +51,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
 	<link rel="stylesheet" href="css/style.css">
-
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -66,48 +67,46 @@
 	<!-- Create an anchor-->
 	<a name="top"></a>
 
-	<nav id="colorlib-main-nav" role="navigation">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-		<div class="js-fullheight colorlib-table">
-			<div class="colorlib-table-cell js-fullheight">
-				<div class="row">
-					<div class="col-md-12">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="curriculumvitae.html">About</a></li>
-							<li><a href="research.html">Publications/Presentations</a></li>
-							<li><a href="portfolio.html">Research Portfolio</a></li>			
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	
 	<div id="colorlib-page">
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<div class="colorlib-navbar-brand">
-							<a class="colorlib-logo" href="index.html"><span>STEFFIE</span><span>S.Y.KIM</span></a>
-						</div>
-						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+					<!-- Logo -->
+					<div class="colorlib-navbar-brand">
+						<a class="colorlib-logo" href="index.html"><span>STEFFIE</span><span>KIM</span></a>
 					</div>
+
+					<nav>
+					<div class="topnav" id="myTopnav">	
+
+						<!-- Navigation links in desktop mode -->
+						<a href="research.html">PUBS/TALKS</a>
+						<a href="portfolio.html">PORTFOLIO</a>
+						<a href="curriculumvitae.html">ABOUT</a>
+
+						<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+						</a>						
+					</div>
+
+					</nav>
 				</div>
 			</div>
 		</header>
 		
 		<div id="colorlib-services">
 			<div class="container">
+				<!--
 				<div class="row text-center">
 					<h2 class="bold">About</h2>
 				</div>
+				-->
 				
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>About</span>
-						<h2>Steffie Sofia Yeonjoo Kim</h2>
+						<h1 class="blue" style="font-size:50pt">About</h1>
+						<h4>Hello! I'm happy you're here.</h4>
 					</div>
 				</div>
 
@@ -311,35 +310,36 @@
 					<!--<a href="https://drive.google.com/file/d/1A7_tFMv-8xx7pCwm1ivMotqqsUimkRdz/view?usp=sharing" target="_blank"><img src="images/resume_icon.png"></a>
 						
 						<a href="https://docs.google.com/document/d/1ZulgXa0KVM-pJFQbsfL5CpuhBH3PkQRjbB6iF4uJLO4/edit?usp=sharing" target="_blank"><img src="images/vitae_icon.png"></a>-->
-					<br><br><br>
+					<br><br>
 					<p><a href="#top" class="btn btn-primary btn-outline">Back to top of page</a></p>
+					<br>
 				</div>
 
 			</div>
+			<footer>
+				<div class="col-md-12 text-center">
+					<p>
+						<!--
+						<a href="index.html">Home</a>&nbsp;<a href="curriculumvitae.html">Background</a>&nbsp;<a href="research.html">Research</a>&nbsp;<a href="portfolio.html">Porfolio</a>&nbsp;<a href="contact.html">Contact</a>
+						<br>
+						-->
+						<a href="https://www.linkedin.com/in/steffiekim/" target="_blank"><i class="icon-linkedin"></i></a>
+						<a href="https://twitter.com/kim_steffie" target="_blank"><i class="icon-twitter"></i></a>
+						<a href="https://orcid.org/0000-0002-5400-9591" target="_blank"><i class="icon-orcid"></i></a>	
+						<br>
+						
+							<b>Let's Talk:</b> steffiekim[at]gmail[dot]com<br>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							&copy; <script>document.write(new Date().getFullYear());</script> Steffie Kim. All rights reserved.
+							<br>
+							<a href="https://colorlib.com" target="_blank">Colorlib</a> template modified
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						
+					</p>
+				</div>
+			</footer>
 		</div>
 	</div>
-			
-	<footer>
-		<div class="col-md-12 text-center">
-			<p>
-				<!--
-				<a href="index.html">Home</a>&nbsp;<a href="curriculumvitae.html">Background</a>&nbsp;<a href="research.html">Research</a>&nbsp;<a href="portfolio.html">Porfolio</a>&nbsp;<a href="contact.html">Contact</a>
-				<br>
-				-->
-				<a href="https://www.linkedin.com/in/steffiekim/" target="_blank"><i class="icon-linkedin"></i></a>
-				<a href="https://twitter.com/kim_steffie" target="_blank"><i class="icon-twitter"></i></a>
-				<a href="https://orcid.org/0000-0002-5400-9591" target="_blank"><i class="icon-orcid"></i></a>	
-				<br>
-				<b>Let's Talk:</b> steffiekim[at]gmail[dot]com<br>
-
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				&copy; <script>document.write(new Date().getFullYear());</script> Steffie Kim. All rights reserved.
-				<br>
-				<a href="https://colorlib.com" target="_blank">Colorlib</a> template modified
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			</p>
-		</div>
-	</footer>
 		
 
 	<!-- jQuery -->
@@ -355,7 +355,8 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
-
+	<!-- Hamburger menu toggle -->
+	<script src="js/responsive_toggle.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
