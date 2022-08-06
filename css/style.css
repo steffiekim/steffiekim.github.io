@@ -83,6 +83,31 @@ h1, h2, h3, h4, h5, h6 {
 .blue{
   color: #150f70;}
 
+.realistic-marker-highlight{
+  position:relative;
+  color: #150f70;
+  font-weight: bold;
+}
+
+.realistic-marker-highlight:before{
+  content:"";
+  background-color:pink;
+  width:100%;
+  height:1.3em;
+  position:absolute;
+  z-index:-1;
+  filter:url(#marker-shape);
+  left:-0.15em;
+  top:0.1em;
+  padding:0 0.3em;
+}
+
+.underline-thick{
+  text-decoration-line: overline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #150F70;
+}
+
 ::-webkit-selection {
   color: #fcfcfc;
   background: #b7c2c2; }
