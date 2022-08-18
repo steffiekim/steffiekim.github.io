@@ -88,6 +88,31 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
+.tag-button {
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 15px;
+  padding: 3px 5px;
+  pointer-events: none; /* Set button to unclickable */
+}
+
+.qual {
+  background-color: #6c1f10;
+  color: #efefef;
+}
+
+.quant {
+  background-color: #E69C43;
+  color: #efefef;
+}
+
+.mixed {
+  background-color: #ff4040;
+  color: #efefef;
+}
+
+
 .realistic-marker-highlight{
   position:relative;
   color: #150f70;
