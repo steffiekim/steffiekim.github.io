@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .realistic-marker-highlight:before{
   content:"";
-  background-color:pink;
+  background-color:#F0D7D7;
   width:100%;
   height:1.3em;
   position:absolute;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /********************************************/
 /********************************************/
-/* My attempt at making responsive nav bar */
+/* My attempt at making responsive/hamburger nav bar */
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -249,11 +249,11 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
     display: block;
     text-align: middle;
-    background-color: #f6eaea;
+    background-color: #F0D7D7;
   }
 }
 
-/* My attempt at making responsive nav bar */
+/* My attempt at making responsive/hamburger nav bar */
 /********************************************/
 /********************************************/
 
