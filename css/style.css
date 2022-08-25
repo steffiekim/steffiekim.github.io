@@ -120,6 +120,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #efefef;
 }
 
+.games {
+  background-color: #D7C3C3;
+  color: rgb(82, 82, 82);
+}
+
+.community {
+  background-color: #EBCFBA;
+  color: rgb(82, 82, 82);
+}
+
+.mental {
+  background-color: #E5EBD7;
+  color: rgb(82, 82, 82);
+}
+
+.vr {
+  background-color: #DEF3FD;
+  color: rgb(82, 82, 82);
+}
+
 .realistic-marker-highlight{
   position:relative;
   color: #424242;
