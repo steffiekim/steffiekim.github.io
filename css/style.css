@@ -106,12 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .qual {
-  background-color: #6c1f10;
+  background-color: #8200AC;
   color: #efefef;
 }
 
 .quant {
-  background-color: #E69C43;
+  background-color: #0065A2;
   color: #efefef;
 }
 
@@ -126,18 +126,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .community {
-  background-color: #EBCFBA;
+  background-color: #D6D5BD;
   color: rgb(82, 82, 82);
 }
 
 .mental {
-  background-color: #E5EBD7;
+  background-color: #FED9AA;
   color: rgb(82, 82, 82);
 }
 
 .vr {
-  background-color: #DEF3FD;
+  background-color: #BFE6FF;
   color: rgb(82, 82, 82);
+}
+
+.aerospace{
+  background-color: #EBCFBA ;
+  color:rgb(82, 82, 82);
+
 }
 
 .realistic-marker-highlight{
