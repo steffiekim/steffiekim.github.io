@@ -14,7 +14,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Games Research Project | Steffie Kim</title>
+	<title>Remote Socializing Research Project | Steffie Kim</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -104,9 +104,9 @@
 				-->
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<h1 class="blue" style="font-size:50pt">Games Research Project
+						<h1 class="blue" style="font-size:50pt">Remote Socializing Project
 							</h1>
-						<h4>This is a quantitative research project I conducted as a Lead Quantitative Researcher at the USC Annenberg Game Lab </h4>
+						<h4>This is a quantitative research project I conducted as a Lead Quantitative Researcher at the USC SOLVE-IT </h4>
 					</div>
 				</div>
 				<div class="row">
@@ -121,46 +121,47 @@
 			<div class="container">
 				<div class="work-entry animate-box">
 
-					<h2 class ="blue"><b>The Influence of Group Play On In-Game Generosity</b></h2>
-					In collaboration with <i>thatgamecompany</i>, I investigated how to reduce in-game toxicity in a mobile MMOG, <a href="https://thatgamecompany.com/sky/" target="_blank"><i><u><b class="grey">Sky: Children of the Light</b></u></i></a>, that can ultimately lead to less player churn. 
+					<h2 class ="blue"><b>The Influence of Remote Communication On Sense of Connectedness</b></h2>
+					I investigated how different modes of communication affect the sense of connectedness after the COVID-19 pandemic. 
 					<br><br>
-					<img class="img-responsive" src="images/project_sky/sky-flying.gif">
-					<i>Gameplay recorded in Sky: Children of the Light by Steffie Kim</i><br>
+					<img class="img-responsive" src="images/project_remote-comm/connectedness.jpeg">
+					<i>Photo created by <a href="https://www.freepik.com/author/rawpixel-com" target="_blank">rawpixel.com</a> at <a href="www.freepik.com" target="_blank">Freepik</a></i>
+					<br>
 					<p>
 
 					<h3 class ="blue"><b>The Problem</b></h3>
-					Massively multiplayer online games (MMOGs) feature social activities and generate in-game friendships. However, social settings can be toxic sometime (e.g., cyberbullying, harassment, griefing). Previous literature suggests that teamwork yields prosocial outcomes. 
+					COVID-19 has changed how people maintain social relationships—we see more remote/virtual communication in everyday life and workplaces. However, some people have difficulty re-adjusting to in-person interactions due to social anxiety disorder (SAD) developed or increased during the pandemic. It's critical to see how people communicate with their close relationships and how remote vs. in-person communication helps their social relationships to reengage these people in on-site settings.
 					
 					<br><br>
 
 					<h3 class ="blue"><b>Research Questions</b></h3>
 					<section class="component">
 						<blockquote class="sidekick">
-							How does group play encourage in-game prosocial activities?							
+							Is in-person communication better than remote communication to feel connected to close relationships (e.g., family, friends)?							
 					  	</blockquote>
 						  <blockquote class="sidekick">
-							How does group play benefit players?
+							How can we increase the sense of connectedness for socially anxious individuals?						
 					  	</blockquote>
 					</section>
 
 					<h3 class ="blue"><b>The Goal</b></h3>
-					<li>Find out how group play creates in-game generosity.</li> 
-					<li>Investigate how players benefit from being generous.</li>
+					<li>Find out which types of communication methods increase social connectedness.</li> 
+					<li>Investigate ways to increase the sense of connectedness for socially anxious people.</li>
 					
 					<br><br>
 					
 					<h3 class ="blue"><b>Research Design</b></h3>
-					<li>A survey questionnaire was distributed in <i>Sky: Children of the Light</i> in November 2020.</li>
-					<li>The survey data was linked to six months of in-game player behavior log data (April to October in 2020).</li>
-					<li>A total of 1,056 unique players were analyzed.</li>
+					<li>200 participants with SAD were recruited through Prolific in December 2021.</li>
+					<li>An ego network approach was taken in designing the survey.</li>
+					<li>169 egos and 828 alters in total were included in the analysis.</li>
 					
 					<br><br>									
 
 					<h3 class ="blue"><b>Analysis</b></h3>
-					<img class="img-responsive" src="images/project_sky/sky_chart.png">
-					<li>Path analysis was conducted in <i>R</i> using the <i>lavaan</i> package.</li>
-					<li>A residualized covariance matrix was created by regressing all variables in the model on the control variables in advance to control for the variance accounted for by covariates (e.g., age, gender, playtime).</li>
-					<li>The residualized covariance was used to compute the path estimates.</li>
+					<img class="img-responsive" src="images/project_remote-comm/remote-table.png">
+					<br>
+					<li>Multilevel modeling in <i>R</i> using the <i>lme4</i> package.</li>
+					<li>All the alter-level predictors and alter-level covariates were entered simultaneously (Model 3 in the above table).</li>
 
 					<!--
 					<br>
@@ -173,30 +174,29 @@
 					<br><br>
 
 					<h3 class ="blue"><b>Key Findings</b></h3>
-					<img class="img-responsive" src="images/project_sky/infographic-sky.png">
+					<img class="img-responsive" src="images/project_remote-comm/remote-infographic.png">
 					<br>
-					<li>More group play than solo play increased generosity among players increased.</li>
-					<li>Compared to solo players, group players gained more popularity, emotional support, and information from other players.</li>
-					<li>More generous players gained more information from other players and became more popular.</li>
-					<li>Being involved in groups and being generous to others increased benefits of staying in the game, which may lead to less user churn and more positive player community.</li>	
+					Whether the communication medium is in-person or remote doesn't matter in the sense of connectedness for people with SAD. The more important thing is whether the communication medium is "synchronous."
+					<br><br>
+					<i class="blue">Synchronous Communication</i>
+					<li>Instant messaging, voice chats, and video calls predicted the sense of connectedness.</li>
+					<li>In-person interactions predicted the sense of connectedness.</li>
+					<br>
+					<i class="blue">Asynchronous Communication</i>
+					<li>Texting, comments/likes on social media, and emails did not predict the sense of connectedness.</li>
 					
 					<br><br>
 
 					<h3 class ="blue"><b>Recommendations</b></h3>
-					<li>Designers/moderators should encourage natural group play activities that develop reciprocal generous behavior among players.</li>
-					<li>Group play can make the in-game community a place where players want to stay due to increased number of generous players and benefits (e.g., popularity) they can enjoy (can expect decreased churn rate).</li>
+					<li>To engage people who have SAD in social interactions, it is better to provide synchronous modes of communication than communication media that takes time to exchange responses.</li>
+					<li>Creating an interactive and synchronous VR intervention for people with SAD may be effective in reducing SAD symptoms.</li>
 
 					<br><br>
 
 					<h3 class ="blue"><b>Unanswered Questions</b></h3>
-					<li>It would be useful to compare how forced group play and natural group play can yield different gameplay behavior.</li>
-					
-					<br><br>
-
-					<h3 class ="blue"><b>Learn More</b></h3>
-					⬇ Click below to check out my first-authored journal article published in <i>Computers in Human Behavior</i> based on this project
-					<br>
-					<a href="resources/Kim et al. 2022 - Group Play and Reciprocity.pdf" target="_blank"><img src="images/project_sky/CHB.jpeg" width="250px"></a>							
+					<li>Compare how synchronous vs. asynchronous communication methods affect healthy individuals who do not have SAD.</li>
+					<li>Explore more ego network factors (e.g., alter-alter ties) and similarity factors (e.g., political affiliation, beliefs).</li>
+						
 				</div>
 
 

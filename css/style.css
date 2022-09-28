@@ -140,6 +140,11 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(82, 82, 82);
 }
 
+.remote {
+  background-color: #daf34a;
+  color: rgb(82, 82, 82);
+}
+
 .aerospace{
   background-color: #EBCFBA ;
   color:rgb(82, 82, 82);
@@ -281,111 +286,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* My attempt at making responsive/hamburger nav bar */
 /********************************************/
-/********************************************/
 
-.component{
-  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-  width: 750px;
-  margin:0 auto;
-  padding: 3rem;
-}
 
-.component blockquote.quote {
-    position: relative; 
-    text-align: center;
-    padding: 1rem 1.2rem;
-    width: 80%;  /* create space for the quotes */
-    color: #484748;
-    margin: 1rem auto 2rem;
-}
-.component blockquote.EN {
-    background:
-    linear-gradient(to right, #039be5 4px, transparent 4px) 0 100%,
-    linear-gradient(to left, #039be5 4px, transparent 4px) 100% 0,
-    linear-gradient(to bottom, #039be5 4px, transparent 4px) 100% 0,
-    linear-gradient(to top, #039be5 4px, transparent 4px) 0 100%;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-
-.component blockquote.DE {
-    background:
-    linear-gradient(to right, #039be5 4px, transparent 4px) 0% 0%,
-    linear-gradient(to bottom, #039be5 4px, transparent 4px) 0% 0%,
-    linear-gradient(to left, #039be5 4px, transparent 4px) 100% 100%,
-    linear-gradient(to top, #039be5 4px, transparent 4px) 100% 100%;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-}
-    
 
 /* -- create the quotation marks -- website: https://codepen.io/Rases/pen/pogVVwp */
-.component blockquote.quote:before,
-.component blockquote.quote:after{
-    font-family: FontAwesome;
-    position: absolute;
-    color: #039be5;
-    font-size: 34px;
+.component{
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  width: 80%;
+  margin:0 60px;/* top and bottom; right and left */
+  padding: 1rem;
 }
 
-.component blockquote.EN:before{
-    content: "\f10d";
-    top: -12px;
-    margin-right: -20px;
-    right: 100%;
-}
-.component blockquote.EN:after{
-    content: "\f10e";
-    margin-left: -20px;
-    left: 100%;  
-    top: auto;
-    bottom: -20px;
-}
-.component blockquote.DE:before{
-    content: "\f10e";
-    margin-right: -20px;
-    bottom: -20px;
-    right: 100%;
-}
-.component blockquote.DE:after{
-    content: "\f10d";
-    margin-left: -20px;
-    left: 100%;  
-    top: -20px;
-    bottom: auto;
-}
-
-.zitat1 {
-  position: relative;
-  font-family: 'Verdana', serif;
-  font-size: 2.4em;
-  line-height: 1.5em;
-}
-.zitat1 cite {
-  font-family: 'Verdana', sans-serif;
-  font-size: 0.6em;
-  font-weight: 700;
-  color: #bdbec0;
-  float: right;
-}
-.zitat1 cite:before {
-  content: '\2015'' ';
-}
-.zitat1:after {
-  content: '\201d';
-  position: absolute;
-  top: 0.28em;
-  right: 0px;
-  font-size: 6em;
-  font-style: italic;
-  color: #bdbec0;
-  z-index: -1;
-}
 .sidekick {
   position: relative;
-  width: 150%;
+  width: 100%;
   padding-left: 1em;
-  border-left: 0.2em solid #150f70;
+  border-left: 0.3em solid #150f70;
   font-family: "Playfair Display", Georgia, serif;;
   font-size: 1em;
   line-height: 1.5em;
@@ -402,6 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 .sidekick cite:before {content: ' \2015 '}
 /* -- create the quotation marks -- */
 
+
 /* Block quotes */
 
 .blockquote {
@@ -414,15 +331,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700px;
   text-align: center;
 }
-
-/*blockquote p::before {
-  content: "\f095"; 
-  font-family: FontAwesome;
- display: inline-block;
- padding-right: 6px;
- vertical-align: middle;
-font-size: 180px;
-}*/
 
 .blockquote:before {
 position: absolute;
@@ -458,7 +366,7 @@ padding:1em 30px 1em 50px;
 border-left:8px solid #150f70;
 line-height:1.6;
 position: relative;
-background:#EDEDED;
+background: #e5dede;
 }
 
 .otro-blockquote::before{
