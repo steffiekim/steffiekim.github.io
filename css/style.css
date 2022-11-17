@@ -106,38 +106,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .qual {
-  background-color: #8200AC;
+  background-color: #36B37E;
   color: #efefef;
 }
 
 .quant {
-  background-color: #0065A2;
+  background-color: #00B8D9;
   color: #efefef;
 }
 
 .mixed {
-  background-color: #ff4040;
+  background-color: #FFAB00;
   color: #efefef;
 }
 
 .games {
-  background-color: #D7C3C3;
-  color: rgb(82, 82, 82);
+  background-color: #4C9AFF;
+  color: #efefef;
 }
 
 .community {
-  background-color: #D6D5BD;
+  background-color: #FFE380;
   color: rgb(82, 82, 82);
 }
 
 .mental {
-  background-color: #FED9AA;
+  background-color: #FFBDAD;
   color: rgb(82, 82, 82);
 }
 
 .vr {
-  background-color: #BFE6FF;
-  color: rgb(82, 82, 82);
+  background-color: #8777D9;
+  color: #efefef;
 }
 
 .remote {
@@ -146,14 +146,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .aerospace{
-  background-color: #EBCFBA ;
-  color:rgb(82, 82, 82);
+  background-color: #A5ADBA ;
+  color:#efefef;
 
 }
 
 .webdesign{
-  background-color: #ffa733 ;
-  color:rgb(82, 82, 82);
+  background-color: #FF5630 ;
+  color: #efefef;
 
 }
 
