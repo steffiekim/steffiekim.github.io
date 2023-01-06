@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 .component{
   font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
   width: 80%;
-  margin:0 60px;/* top and bottom; right and left */
+  margin:0 0px;/* top and bottom; right and left */
   padding: 1rem;
 }
 
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
   padding-left: 1em;
-  border-left: 0.3em solid #150f70;
+  border-left: 0em solid #150f70;
   font-family: "Playfair Display", Georgia, serif;;
   font-size: 1em;
   line-height: 1.5em;
