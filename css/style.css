@@ -67,6 +67,11 @@ p, span {
   font-weight: 400;
   font-family: "Karla", Arial, sans-serif; }
 
+.brmedium {
+  display: block;
+  margin-bottom: 0.6em;
+}
+
 ul, ol {
   display: block;
   margin-bottom: 1.5em; }
