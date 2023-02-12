@@ -133,9 +133,10 @@ h1, h2, h3, h4, h5, h6 {
 .tag-button {
   border-width: 0.5px; /* border: none; if I don't want borders */
   border-radius: 7px;
+  border-color: black;
   text-align: center;
   font-size: 14px;
-  background-color: #f6eaea;
+  background-color: transparent;
   padding: 3px 5px;
   pointer-events: none; /* Set button to unclickable */
 }
