@@ -131,10 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tag-button {
-  border: none;
+  border-width: 0.5px;
   border-radius: 7px;
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
+  background-color: #f6eaea;
   padding: 3px 5px;
   pointer-events: none; /* Set button to unclickable */
 }
