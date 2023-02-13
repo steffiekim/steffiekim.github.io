@@ -104,7 +104,7 @@
 				-->
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<h1 class="blue" style="font-size:35pt">Optimizing Virtual Agents' Movements in VR
+						<h1 class="blue" style="font-size:35pt">Mouse-Tracking Gender Effects <br>in Virtual Social Scenarios
 							</h1>
 						<h4>This is a quantitative research project I conducted for my dissertation at USC. </h4>
 					</div>
@@ -132,118 +132,75 @@
 					-->
 
 					<h3 class ="blue"><b>The Problem</b></h3>
-					While research confirms that other people's movements deliver social cues in interpersonal communication, it has not yet been investigated as to how varying degrees of interpersonal distance and approach speed can affect social anxiety and personal bubbles, especially in virtual environments.
+					Socially anxious individuals frequently face conflicting desires in social situations, where they may simultaneously desire social interaction and solitude. Despite this, there is still a lack of understanding regarding their behavior and reaction in real-time social scenarios. Research has indicated that social anxiety disorder can manifest differently in men and women and can evolve differently over time. Men and women, in general, engage in socializing differently, but does that also applies to socially anxious individuals? There is a need for further investigation into the complex nature of social anxiety disorder and how it affects individuals differently.
 					
 					<br><br>
 
 					<h3 class ="blue"><b>Research Questions</b></h3>
 					<section class="component">
 						<blockquote class="sidekick">
-							How does virtual agents' interpersonal distance and approach speed influence the situational social anxiety, personal space, and sense of physical closeness? 				
-					  	</blockquote>
-						<blockquote class="sidekick">
-							Are the effects different between socially anxious individuals and healthy individuals?
+							How does gender affect internal conflicts in virtual social scenarios? 				
 					  	</blockquote>
 					</section>
 
 					<h3 class ="blue"><b>The Goal</b></h3>
-					<li>Investigate how to optimize interpersonal distance and approach speed of virtual agents in virtual environments.</li>
-					<li>Investigate how virtual agents should be designed differently according to the level of social anxiety.</li>
-					<br>
+					Investigate how women and men react differently to virtual social scenarios.
+					<br><br>
 					
 					<h3 class ="blue"><b>Research Design</b></h3>
-					<li>305 participants (147 socially anxious individuals and 158 healthy individuals) were recruited on Prolific.</li>
-					<li>2 conditions for interpersonal distance (close vs. far) and 2 conditions for approach speed (slow vs. fast) were tested in an online experiment.</li>
-						<center>
-							<img src="images/project_VR-movement/experiment.png" alt="Experimental conditions">
-						</center>
-					<br><br>
-					<li>Virtual agents and movements were created using Unity and Adobe Mixamo.</li>
-						<br>
-						<center><b><i>Virtual characters used in the experiment</i></b></center><br>
+					<li>200 socially anxious individuals were recruited on Prolific.</li>
+					<li>For the purpose of quantatitive data analysis, participants who identified as neither male nor female were excluded.</li>
+					<br>
+					<b><i>Designing virtual social scenarios:</i></b><br>
+					<li>In-depth interviews were conducted with 27 socially anxious individuals to design virtual social scenarios.</li>
+					<li>3 virtual social scenarios (party, grocery, job interview) were made using the Sims 4.</li>
+					<br>
+					<b><i>The experiment:</i></b><br>
+					<li>Prior to participating in the main experiment, individuals were given the opportunity to familiarize themselves with decision-making tasks through non-social trials (e.g., selecting an image of broccoli).</li>
+					<li>In the main experiment, participants were asked to choose either an approach or an avoidance choice in three different social scenarios.</li>
+					<li>For each virtual social scenario (party, grocery, job interview), participants encountered 5 decision-making situations, resulting in a total of 15 decision-making tasks throughout the experiment.</li>
+					<br>
+					<center><b><i>An example of a virtual social scenario (grocery)</i></b></center>
 						<div class="row">
 							<div class="column">
-							<img src="images/project_VR-movement/characters-females.png" alt="Empowerment #1" style="width:100%">
+							<img src="images/project_mousetracking/project3_situation.png" alt="Social scenario" style="width:100%">
 							</div>
 							<div class="column">
-								<img src="images/project_VR-movement/characters-males.png" alt="Empowerment #1" style="width:100%">
+								<img src="images/project_mousetracking/project3_options.png" alt="Decision making task" style="width:100%">
 							</div>
 						</div>
-					<br>
-					<li>Each participant watched 8 videos of 8 different virtual agents moving toward them.</li>
-					<br>
-						<center>
-							<b><i>Examples of videos shown to participants</i></b><br>
-							<div class="grid-container">
-								<div class="grid-item">			
-									far-fast<br>
-									<video width="100%" height="240" autoplay muted controls>
-										<source src="videos/project_VR-movement/far-fast-leonard.mp4" type="video/mp4">
-									  </video>
-								</div>
-								<div class="grid-item">
-									far-slow<br>
-									<video width="100%" height="240" autoplay muted controls>
-										<source src="videos/project_VR-movement/far-slow-david.mp4" type="video/mp4">
-									  </video>
-								</div>
-							</div>
-							<div class="grid-container">
-								<div class="grid-item">
-									close-fast<br>
-									<video width="100%" height="240" autoplay muted controls>
-										<source src="videos/project_VR-movement/close-fast-kate.mp4" type="video/mp4">
-									  </video>
-								</div>
-								<div class="grid-item">
-									close-slow<br>
-									<video width="100%" height="240" autoplay muted controls>
-										<source src="videos/project_VR-movement/close-slow-elizabeth.mp4" type="video/mp4">
-									  </video>
-								</div>
-							</div>
-						</center>
 											
 					<br>
 					<h3 class ="blue"><b>Analysis</b></h3>
-					<li>After data cleaning, 189 observations (127 socially anxious individuals and 62 healthy individuals) were included in the analysis.</li>
-					<li>To account for the violation of normal distribution, robust independent-samples <i>t</i>-tests and robust two-way ANOVAs were performed in R.</li>
+					<li>After data cleaning, 176 observations (128 women and 48 men) were included in the analysis.</li>
+					<li>To account for the violation of normal distribution, robust independent-samples <i>t</i>-tests and robust one-way ANOVAs were performed in R.</li>
 
 					<br>
 
 					<h3 class ="blue"><b>Key Findings</b></h3>
-					<b><i>General differences:</i></b><br>
-					<li>In general, socially anxious individuals experienced greater situational social anxiety and felt their personal space is being invaded more compared to healthy individuals.</li>
-					<li>Socially anxious individuals and healthy individuals both had similar estimations of interpersonal distance from oneself to the virtual agents in feet.</li>
-					<li>However, socially anxious individuals thought that virtual agents were closer to them compared to what healthy individuals thought, although the virtual agents were standing at the same distance.</li>
-					<br>
-
-					<b><i>Specific to socially anxious individuals:</i></b><br>
-					<li>Socially anxious individuals felt that their personal space was invaded more when the virtual agents were standing at a closer interpersonal distance.</li>
-					<li>Socially anxious individuals felt that virtual agents were closer to them when the virtual agents were were standing at a closer interpersonal distance and approached more slowly.</li>
-					<li>In contrast, healthy individuals did not show any differences in personal space invasion or subjective sense of physical closeness.</li>
-					<br>
-
-					<b><i>Specific to healthy individuals:</i></b><br>
-					<li>Healthy individuals reported a smaller interpersonal distance (ft.) when the virtual agents were standing closer to them and a larger interpersonal distance (ft.) when the virtual agents were standing farther to them, which seems obvious.</li>
-					<li>However, socially anxious individuals did not display the same pattern, which is unexpected.</li>
+					<li>Compared to socially anxious men, socially anxious women were more likely to move the mouse cursor directly to the choice, less likely to change the decision, and took less time to make a social decision in general, regardless of whether the choice was approach or avoidance. </li>
+					<li>Socially anxious men seem to experience more internal conflicts in imminent social scenarios, compared to socially anxious women.</li>
+					<li>Women are more likely to use defensive pessimism, a coping strategy for anxious individuals to think through possible outcomes in anticipating worst-case scenarios before social events. This can lead to lower ambiguity and internal conflict when making social decisions for socially anxious women.</li>
 					<br>
 
 					<h3 class ="blue"><b>Recommendations</b></h3>
-					<li>Gradually expose socially anxious individuals to closer distances, starting from farther distances, such that they can adjust to feeling comfortable with the same distances that are considered acceptable by healthy individuals.</li>
-					<li>Socially anxious individuals can be trained to get comfortable with fast-moving virtual agents first and then gradually with slowly moving virtual agents to reduce their SAD symptoms.</li>
+					<li>Interventions for socially anxious individuals should be customized to gender-specific needs.</li>
+					<li>Gender-specific safety policies should be implemented for social interactions in VR environments.</li>
 
 					<br>
 
 					<h3 class ="blue"><b>Impact</b></h3>
-					<li>The first study to examine the specifics of virtual agents' interpersonal distance and approach speed that is suitable for training social anxiety symptoms in VR.</li>
-					<li>Provides implications for considering safety policies with regard to personal space and the potential impact on social anxiety when using avatars in VR.</li>
+					<li>The first study to employ mouse-tracking technology to track in-the-moment internal conflicts of socially anxious individuals in virtual social situations.</li>
+					<li>Highlighted the importance of gender in the development of VR interventions for socially anxious individuals.</li>
+					<li>Verified that virtual social scenarios can induce social anxiety.</li>
 
 					<br>
 
 					<h3 class ="blue"><b>Unanswered Questions</b></h3>
-					<li>The findings should be confirmed in immersive VR headsets for better application.</li>
+					<li>Develop a more comprehensive model that incorporates various gender identities (e.g., non-binary).</li>
 					<li>More proportionate participants for each comparison group supported by additional funding will increase the power of analysis.</li>
+					<li>The findings should be confirmed in immersive VR headsets for better application.</li>
+					<li>Examine if defensive pessimism is positive or negative for socially anxious individuals in social situations.</li>
 
 					
 					<br><br>
