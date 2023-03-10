@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pihztn');
-  src:  url('fonts/icomoon.eot?pihztn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pihztn') format('truetype'),
-    url('fonts/icomoon.woff?pihztn') format('woff'),
-    url('fonts/icomoon.svg?pihztn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?awlsju');
+  src:  url('fonts/icomoon.eot?awlsju#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?awlsju') format('truetype'),
+    url('fonts/icomoon.woff?awlsju') format('woff'),
+    url('fonts/icomoon.svg?awlsju#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,19 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-linkedin:before {
+.icon-twitter:before {
   content: "\e903";
-  color: #0077b5;
-}
-.icon-researchgate:before {
-  content: "\e900";
-  color: #0cb;
+  color: #1da1f2;
 }
 .icon-orcid:before {
-  content: "\e901";
+  content: "\e900";
   color: #a6ce39;
 }
-.icon-twitter:before {
+.icon-googlescholar:before {
+  content: "\e901";
+  color: #4885ed;
+}
+.icon-linkedin:before {
   content: "\e902";
-  color: #1da1f2;
+  color: #0077b5;
 }
