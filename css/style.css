@@ -1727,21 +1727,19 @@ input[type="text"] {
 
 .main .container-fluid{
 overflow: hidden;
-padding: 0;
 }
 
 .main .container-fluid .col-md-3{
   padding: 0;
   float: left;
-  transition: all 5s ease-in-out
 }
 
 .main .container-fluid img{
-  width: 100%
+  width: 100%;
 }
 
 @media (max-width: 767px){
   .main .container-fluid img{
-      margin-bottom: 15px
+      margin-bottom: 10px
   }
 }
