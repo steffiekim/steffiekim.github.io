@@ -1684,3 +1684,64 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+  /* Filtered gallery */
+/** code by webdevtrick ( https://webdevtrick.com ) **/
+.main{
+  padding: 0px 0;
+}
+
+.main ul{
+  margin-top: 0px;
+}
+
+.main ul li{
+  padding: 5px 3px;
+  border: 2px solid #333;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 200;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .5s ease;
+  color: #333;
+  display: inline-block;
+}
+
+.main ul li.active,
+.main ul li:hover{
+  background-color: #150F70;
+  color: #FFF;
+  border: 1px solid #150F70;
+}
+
+.main ul li:last-of-type{
+  margin-right: 5px ;
+}
+
+.main ul li:nth-of-type(3),
+.main ul li:nth-of-type(4),
+.main ul li:nth-of-type(5){
+  flex-grow: 2
+}
+
+.main .container-fluid{
+overflow: hidden;
+padding: 0;
+}
+
+.main .container-fluid .col-md-3{
+  padding: 0;
+  float: left;
+  transition: all 5s ease-in-out
+}
+
+.main .container-fluid img{
+  width: 100%
+}
+
+@media (max-width: 767px){
+  .main .container-fluid img{
+      margin-bottom: 15px
+  }
+}
