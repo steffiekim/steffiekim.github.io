@@ -1,9 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175307997-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-175307997-1');
+	</script>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portfolio | Steffie Kim</title>
+	<title>Funnel Data Visualization Project | Steffie Kim</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -52,7 +63,10 @@
 	</head>
 	<body>
 	
+	<a name="top"></a>
+	
 	<div id="colorlib-page">
+		
 		<header>
 			<div class="container">
 				<div class="row">
@@ -80,85 +94,87 @@
 				</div>
 			</div>
 		</header>
-		
-		<div id="colorlib-blog">
+
+		<div id="colorlib-work">
 			<div class="container">
 				<!--
 				<div class="row text-center">
-					<h2 class="bold">Portfolio</h2>
+					<h2 class="bold">Project</h2>
 				</div>
 				-->
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<h1 class="blue" style="font-size:50pt">Portfolio</h1>
-						<h4>Select Projects. Please reach out to me for details. 
-							<span class="brmedium"></span>
-							Some projects have sensitive information omitted due to NDAs.
-						</h4>
+						<h1 class="blue" style="font-size:35pt">Tracking % of Factors in Funnel Charts
+							</h1>
+						<h4>This is a data visualization project I conducted as a Data Analyst Intern at Insomniac Games
+                            <span class="brmedium"></span>
+							<font color = red>*Sensitive information is omitted due to NDA*</font>
+                        </h4>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-md-12">
 						<div class="rotate">
-							<h2 class="heading">Portfolio</h2>
+							<h2 class="heading">Project</h2>
 						</div>
 					</div>
 				</div>
-			
-				<section class="main text-center">
-					<div class="container">
-					  <ul class="list-unstyled row">
-						<li class="col-md active" data-class="all">All</li>
-						<li class="col-md" data-class="dataviz">Data Visualization</li>
-						<li class="col-md" data-class="experiment">Experiment, A/B Testing</li>
-						<li class="col-md" data-class="survey">Survey</li>
-						<li class="col-md" data-class="survey-telemetry">Survey & Telemetry</li>
-						<li class="col-md" data-class="interview">Interview</li>
-					  </ul>
-					</div>
+			</div>	
+				
+			<div class="container">
+				<div class="work-entry animate-box">
+					<!--
+					<img class="img-responsive" src="images/project_remote-comm/connectedness.jpeg">
+					<i>Photo created by <a href="https://www.freepik.com/author/rawpixel-com" target="_blank">rawpixel.com</a> at <a href="www.freepik.com" target="_blank">Freepik</a></i>
+					<br>
+					<p>
+					-->
 
-					<div class="container-fluid ">
-						<div class="col-md-3 images" data-class="dataviz">
-							<a href="portfolio_Insom_funnel.html" class="blog-img">
-								<img class="img-responsive" src="images/portfolio_covers/project-funnel.png">
-							</a>							
-						  </div>
-						<div class="col-md-3 images" data-class="survey-telemetry">						
-						<a href="portfolio_sky-reciprocity.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-sky.png">
-						</a>						
-					  </div>
-					  <div class="col-md-3 images" data-class="experiment">
-						<a href="portfolio_H4LA.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-H4LA.png">
-						</a>
-					  </div>
-					  <div class="col-md-3 images" data-class="survey">
-						<a href="portfolio_remote-comm.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-remote.png">
-							<div class="overlay"></div>
-						</a>							
-					  </div>
-					  <div class="col-md-3 images" data-class="interview">
-						<a href="portfolio_SAD-interview.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-SAD-interviews.png">
-						</a>
-					  </div>
-					  <div class="col-md-3 images" data-class="experiment">
-						<a href="portfolio_VR-movement.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-VR-movement.png">
-						</a>							
-					  </div>
-					  <div class="col-md-3 images" data-class="experiment">
-						<a href="portfolio_VR-mouse.html" class="blog-img">
-							<img class="img-responsive" src="images/portfolio_covers/project-mousetracking.png">
-						</a>							
-					  </div>
-					</div>
-				  </section>
+					<h3 class ="blue"><b>The Problem</b></h3>
+					The stakeholders wanted to identify potential disparities in the representation of specific groups within certain decision-making processes.
+					<br><br>
+
+					<h3 class ="blue"><b>The Goal</b></h3>
+					Determine which groups exhibit over-representation at each stage of the decisino-making process and investigate any shifts in group representation.
+					
+					<br><br>				
+
+					<h3 class ="blue"><b>Analysis</b></h3>
+					<li>I employed Excel to process raw data and calculate the percentage of each group involved in each decision-making process.</li>
+					<li>Based on the Excel calculation, I utilized PowerPoint to visualize the data.</li>
+
+					<!--
+					<br>
+					Figure 1. <i>Results of path analysis</i>
+					<br>
+					<img src="images/project2_chart.png" class="responsive">
+					<i>Note</i>. *<i>p</i> < .05. **<i>p</i> < .01. ***<i>p</i> < .001.
+					-->
+
+					<br>
+
+					<h3 class ="blue"><b>Key Findings</b></h3>
+					<img class="img-responsive" src="images/project_Insom-funnel/insom-funnel1.png">
+					<br>
+					Regarding "X," Group 1 experienced a mere 1% reduction from start to finish, while Group 2 witnessed a substantial 12% decline. Group 3 consistently demonstrated growth, with an impressive 14% increase. An in-depth investigation is warranted to enhance the representation of Group 2 within this process.
+					<br><br>
+                    <img class="img-responsive" src="images/project_Insom-funnel/insom-funnel2.png">
+					<br>
+					In the context of "Y," Group 1 maintained the largest share (63%) of all groups, even after being subject to filtering throughout the stages. While other groups saw an uptick in their representation, it is imperative to develop a strategy to address the over-representation of Group 1 as a whole.
+					<br><br>
+					<h3 class ="blue"><b>Impact</b></h3>
+                    <img class="img-responsive" src="images/project_Insom-funnel/funnel-recognition.png">
+					My work on this project was acknowledged by the stakeholders on the company's recognition and celebration platform. Furthermore, I received another request for data visualization due to their satisfaction with my performance.				
+				</div>
+
+
+				<div class="row text-center">
+					<p><a href="portfolio.html" class="btn btn-primary btn-outline">See other projects</a></p>
+				</div>
+
+				<br>
 			</div>
-		</div>		
+		</div>	
 	</div>
 
 	<footer>
@@ -200,11 +216,8 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Hamburger menu toggle -->
 	<script src="js/responsive_toggle.js"></script>
-	<!-- Category Filter -->
-	<script  src="js/function.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
 
 	</body>
 </html>
