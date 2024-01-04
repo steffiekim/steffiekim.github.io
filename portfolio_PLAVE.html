@@ -104,7 +104,7 @@
 				-->
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<h1 class="blue" style="font-size:35pt">Interactive Dashboard
+						<h1 class="blue" style="font-size:35pt">Interactive Dashboard Example
 							</h1>
 						<h4>This is a personal project to showcase my dashabord skills. </h4>
 					</div>
@@ -117,7 +117,7 @@
 					</div>
 				</div>
 			</div>	
-				
+
             <center>
             <div class='tableauPlaceholder' id='viz1703118223454' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;Plave_Search&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Plave_Search&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;Plave_Search&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1703118223454');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </center>
@@ -125,80 +125,71 @@
 
 			<div class="container">
 				<div class="work-entry animate-box">
-					
-                    
 
                     <p>
 
+					<h3 class ="blue"><b>Note</b></h3>
+					Please be aware that this project is purely hypothetical and has been developed to showcase my dashboarding skills using publicly available data. With unrestricted access to data, I've crafted more intricate visualizations and conducted advanced data analytics. Unfortunately, due to confidentiality constraints, I am unable to share them online. Please consider this example as a brief glimpse into my capabilities.<br><br>
+
 					<h3 class ="blue"><b>The Problem</b></h3>
-					A virtual k-pop boy band, Plave, has to understand target audience.
-					
+					As a pioneering VR company, Blast introduced the virtual K-pop boy band Plave just nine months ago (at the time of analysis). The recent growth in their fanbase has made it challenging to pinpoint the current target audience. Given the unprecedented nature of a virtual boy band, with Blast leading the way in this innovative endeavor, comprehensive data analysis becomes essential. As Plave gears up to launch another album, understanding their fanbase is crucial for effective promotion on social media.				
 					<br><br>
 
-					<h3 class ="blue"><b>Research Questions</b></h3>
+					<h3 class ="blue"><b>Questions</b></h3>
 					<section class="component">
 						<blockquote class="sidekick">
-							How does group play encourage in-game prosocial activities?							
+							Who constitutes Plave's fan base?							
 					  	</blockquote>
 						  <blockquote class="sidekick">
-							How does group play benefit players?
+							When was the search term "Plave" the most popular over the months?
 					  	</blockquote>
 					</section>
 
 					<h3 class ="blue"><b>The Goal</b></h3>
-					<li>Find out how group play creates in-game generosity.</li> 
-					<li>Investigate how players benefit from being generous.</li>
+					<li>Identify key characteristics of Plave's fanbase.</li> 
+					<li>Explore strategies to enhance search engagement based on historical patterns.</li>
 					
 					<br>
 					
-					<h3 class ="blue"><b>Research Design</b></h3>
-					<li>A survey questionnaire was distributed in <i>Sky: Children of the Light</i> in November 2020.</li>
-					<li>The survey data was linked to six months of in-game player behavior log data (April to October in 2020).</li>
-					<li>A total of 1,056 unique players were analyzed.</li>
+					<h3 class ="blue"><b>Data Collection & Preparation</b></h3>
+					<li>Retrieved search popularity history data from the largest Korean search engine, Naver, spanning from Plave's debut to the period preceding the release of their new album.</li>
+					<li>Segmented the data by gender, device, and age group for comprehensive analysis using Python.</li>
+					<li>Created an interactive data visualization dashboard using Tableau (See above).</li>
 					
 					<br>								
 
-					<h3 class ="blue"><b>Analysis</b></h3>
-					<img class="img-responsive" src="images/project_sky/sky_chart.png">
-					<li>Path analysis was conducted in <i>R</i> using the <i>lavaan</i> package.</li>
-					<li>A residualized covariance matrix was created by regressing all variables in the model on the control variables in advance to control for the variance accounted for by covariates (e.g., age, gender, playtime).</li>
-					<li>The residualized covariance was used to compute the path estimates.</li>
-
-					<!--
-					<br>
-					Figure 1. <i>Results of path analysis</i>
-					<br>
-					<img src="images/project2_chart.png" class="responsive">
-					<i>Note</i>. *<i>p</i> < .05. **<i>p</i> < .01. ***<i>p</i> < .001.
-					-->
-
-					<br>
-
 					<h3 class ="blue"><b>Key Findings</b></h3>
-					<img class="img-responsive" src="images/project_sky/infographic-sky.png">
+					<i>Gender:</i>
+					<li>Given that Plave is a boy band, it's evident that females show a greater interest in searching for Plave.</li>
+					<li>However, the male demographic is not negligible, with only a 3.2 difference.</li>
+					<li>Even for high peaks, the search term doesn't differ much. For the March 18th peak, male users actually showed higher popularity score (29.1) than females (20.1). For the June 3rd peak, male users show only 3 score point lower. Finally, for the August 26th peak, </li>
 					<br>
-					<li>More group play than solo play increased generosity among players increased.</li>
-					<li>Compared to solo players, group players gained more popularity, emotional support, and information from other players.</li>
-					<li>More generous players gained more information from other players and became more popular.</li>
-					<li>Being involved in groups and being generous to others increased benefits of staying in the game, which may lead to less user churn and more positive player community.</li>	
+					<i>Device:</i>
+					<li>PC users displayed a higher level of search interest for Plave compared to mobile users in general.</li>
+					<br>
+					<i>Age Group:</i>
+					<li>Individuals expressing interest in Plave predominantly fall within their teens and 20s (23% aged 19-24, 21.3% aged 13-18). Remarkably, Plave's appeal extends across a diverse age spectrum, even reaching those over 60.</li>
+					<li>Upon segmenting the age group data by gender, the highest engagement comes from the 19-24 age group for both female (32.7) and male (17.9) users. However, an intriguing shift occurs when considering the second-highest score: for male users, it is in the 55-59 age group, while for female users, it is in the 13-18 age group.</li>
+					<li>When segmenting by device, in comparison to mobile users, PC users exhibit higher engagement scores among age groups 30 and above.</li>
+					<br>
+					<i>Other Observations:</i>
+					<li>The highest 3 peaks are after album releases.</li>
+					<br>
+					<i>Overall:</i>
+					<li>While there are ups and downs in-between, the overall search popularity has increased over time. Plave is getting more popular.</li>	
 					
 					<br>
 
 					<h3 class ="blue"><b>Recommendations</b></h3>
-					<li>Designers/moderators should encourage natural group play activities that develop reciprocal generous behavior among players.</li>
-					<li>Group play can make the in-game community a place where players want to stay due to increased number of generous players and benefits (e.g., popularity) they can enjoy (can expect decreased churn rate).</li>
+					<li>For PC, target those over 30 as they are more active on PC compared to mobile.</li>
+					<li>Do not target women exclusively as men are also instested in Plave.</li>
 
 					<br>
 
-					<h3 class ="blue"><b>Unanswered Questions</b></h3>
-					<li>It would be useful to compare how forced group play and natural group play can yield different gameplay behavior.</li>
-					
-					<br>
-
-					<h3 class ="blue"><b>Learn More</b></h3>
-					⬇ Click below to check out my first-authored journal article published in <i>Computers in Human Behavior</i> based on this project.
-					<br>
-					<a href="resources/Kim et al. 2022 - Group Play and Reciprocity.pdf" target="_blank"><img src="images/project_sky/CHB.jpeg" width="250px"></a>							
+					<h3 class ="blue"><b>Limitations</b></h3>
+					<li>Given the reliance on public data for this visualization, the range of analyses was constrained by the limitations imposed by the way Naver manipulated the original data.</li>
+					<li>Gender classification is restricted to two categories, which could be enhanced to be more gender-inclusive.</li>
+					<li>If I had access to the raw data, I could run t-test on gender differences to see if the differences are not due to mere chance.</li>											
 				</div>
 
 
