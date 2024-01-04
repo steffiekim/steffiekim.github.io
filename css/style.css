@@ -12,6 +12,18 @@
 *
 * ======================================================= */
 
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-row img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px; /* Adjust the margin as needed for space between images */
+}
+
 .responsive{
   width: 100%;
   height: auto;
