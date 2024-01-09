@@ -104,7 +104,7 @@
 				-->
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<h1 class="blue" style="font-size:35pt">Interactive Dashboard Example
+						<h1 class="blue" style="font-size:35pt">Interactive Time Series Dashboard
 							</h1>
 						<h4>This is a personal project to showcase my dashabord skills. </h4>
 					</div>
@@ -129,11 +129,24 @@
                     <p>
 
 					<h3 class ="blue"><b>Note</b></h3>
-					Please be aware that this project is purely hypothetical and has been developed to showcase my dashboarding skills using publicly available data. With unrestricted access to data, I've crafted more intricate visualizations and conducted advanced data analytics. Unfortunately, due to confidentiality constraints, I am unable to share them online. Please consider this example as a brief glimpse into my capabilities.<br><br>
+					Please note that this project is purely hypothetical and has been developed to showcase my dashboarding skills using publicly available data. With unrestricted access to data, I've crafted more intricate visualizations and conducted advanced data analytics. Unfortunately, due to confidentiality constraints, I am unable to share them online. Please consider this example as a brief glimpse into my capabilities.<br><br>
 
 					<h3 class ="blue"><b>The Problem</b></h3>
-					As a pioneering VR company, Blast introduced the virtual K-pop boy band Plave just nine months ago (at the time of analysis). The recent growth in their fanbase has made it challenging to pinpoint the current target audience. Given the unprecedented nature of a virtual boy band, with Blast leading the way in this innovative endeavor, comprehensive data analysis becomes essential. As Plave gears up to launch another album, understanding their fanbase is crucial for effective promotion on social media.				
+					
+					<center><img class="img-responsive" src="images/project_PLAVE/vlast_logo.png"></center>
+					<br>					
+					As a pioneering VR company, Vlast introduced the virtual K-pop boy band Plave (플레이브 in Korean) just nine months ago (at the time of analysis: December 1, 2023). The recent growth in their fanbase has made it challenging to pinpoint the current target audience. Given the unprecedented nature of a virtual boy band, comprehensive data analysis becomes essential. As Plave gears up to launch another album, understanding their fanbase is crucial for effective promotion on social media.				
 					<br><br>
+
+					<center><img class="img-responsive" src="images/project_PLAVE/PLAVE_group.png"></center>
+					<br><br>
+										
+					<h3 class ="blue"><b>Expected Impact</b></h3>
+					<li>A targeted marketing approach will empower Vlast to expand Plave's fanbase.</li>
+					<li>Optimize resource allocation for gender, age, and device-specific campaigns to enhance promotional effectiveness. </li>
+					<li>Create more impactful strategies by leveraging identified peaks in search interest. </li>
+					<li>Expect a positive impact on Plave's overall brand growth.</li>
+					<br>
 
 					<h3 class ="blue"><b>Questions</b></h3>
 					<section class="component">
@@ -150,8 +163,15 @@
 					<li>Explore strategies to enhance search engagement based on historical patterns.</li>
 					
 					<br>
+
+					<h3 class ="blue"><b>Data Collection & Preparation</b></h3>					
+										
+					<div class="skills-row">
+						<img class="img-responsive" src="images/project_PLAVE/naver_logo.png" width="30%" height="30%">
+						<img class="img-responsive" src="images/skills/python.png">
+						<img class="img-responsive" src="images/skills/tableau.png">
+					</div>
 					
-					<h3 class ="blue"><b>Data Collection & Preparation</b></h3>
 					<li>Retrieved search popularity history data from the largest Korean search engine, Naver, spanning from Plave's debut to the period preceding the release of their new album.</li>
 					<li>Segmented the data by gender, device, and age group for comprehensive analysis using Python.</li>
 					<li>Created an interactive data visualization dashboard using Tableau (See above).</li>
@@ -159,37 +179,67 @@
 					<br>								
 
 					<h3 class ="blue"><b>Key Findings</b></h3>
-					<i>Gender:</i>
-					<li>Given that Plave is a boy band, it's evident that females show a greater interest in searching for Plave.</li>
+					<blockquote>
+						<p>1. Gender: Although females constitute the primary fanbase, males also demonstrate a noteworthy level of interest.</p>
+					</blockquote>
+					<li>Given that Plave is a boy band, females show a greater interest (13.0) compared to males (9.8) in searching for Plave.</li>
 					<li>However, the male demographic is not negligible, with only a 3.2 difference.</li>
-					<li>Even for high peaks, the search term doesn't differ much. For the March 18th peak, male users actually showed higher popularity score (29.1) than females (20.1). For the June 3rd peak, male users show only 3 score point lower. Finally, for the August 26th peak, </li>
+					<li>Even across significant peaks, the variation in search terms remains minimal. Notably, during the March 18th peak, male users exhibited a higher popularity score (29.1) compared to females (20.1). On the June 3rd peak, male users (46.3) were only 3 points lower than females (49.0). While the August 26th peak showed a slightly larger difference in interest, with females at 90.6 and males at 76.8, in contrast, the October 16th peak intriguingly revealed that males (44.6) displayed a greater interest in Plave than females (44.2).</li>
 					<br>
-					<i>Device:</i>
-					<li>PC users displayed a higher level of search interest for Plave compared to mobile users in general.</li>
+					<blockquote>
+						<p>2. Device: PC users exhibit a higher level of interest in Plave in comparison to mobile users.</p>
+					</blockquote>
+					<li>PC users displayed a higher level of search interest (14.9) for Plave compared to mobile users (8.9) in general. On average, PC users exhibit a popularity score approximately 4.04 times higher than that of mobile users.</li>
+					<li>Children under the age of 12 refrain from using mobile devices entirely.</li>
+					<li>Individuals aged 19 to 43 exhibit a higher popularity score on PC compared to mobile devices.</li>
 					<br>
-					<i>Age Group:</i>
-					<li>Individuals expressing interest in Plave predominantly fall within their teens and 20s (23% aged 19-24, 21.3% aged 13-18). Remarkably, Plave's appeal extends across a diverse age spectrum, even reaching those over 60.</li>
-					<li>Upon segmenting the age group data by gender, the highest engagement comes from the 19-24 age group for both female (32.7) and male (17.9) users. However, an intriguing shift occurs when considering the second-highest score: for male users, it is in the 55-59 age group, while for female users, it is in the 13-18 age group.</li>
-					<li>When segmenting by device, in comparison to mobile users, PC users exhibit higher engagement scores among age groups 30 and above.</li>
+					<blockquote>
+						<p>3. Age Group: Plave attracts a wide range of age groups and highlights unique gender-specific patterns.</p>
+					</blockquote>
+					<li>Individuals expressing interest in Plave predominantly fall within their teens and 20s (23% aged 19-24, 21.3% aged 13-18).</li>
+					<li>Remarkably, Plave's appeal extends across a diverse age spectrum, even reaching those over 60.</li>
+					<li>Upon segmenting the age groups by gender, the highest engagement comes from the 19-24 age group for both female (32.7) and male (17.9) users. However, an intriguing shift occurs when considering the second-highest score: for male users, it is in the 55-59 age group, while for female users, it is in the 13-18 age group.</li>
 					<br>
-					<i>Other Observations:</i>
-					<li>The highest 3 peaks are after album releases.</li>
+					<blockquote>
+						<p>4. Additional Insights: Plave's popularity is steadily increasing with the launch of each new album.</p>
+					</blockquote>
+					<li>The three highest peaks in search popularity coincide with album releases.</li>
+					<li>Despite fluctuations, there is a consistent upward trend in overall search popularity over time, indicating a growing popularity for Plave.</li>					
 					<br>
-					<i>Overall:</i>
-					<li>While there are ups and downs in-between, the overall search popularity has increased over time. Plave is getting more popular.</li>	
+
+					<h3 class ="blue"><b>Recommendations Based on Findings</b></h3>
+					<blockquote>
+						<p>1. Gender-related suggestions</p>
+					</blockquote>
+					<li>Avoid exclusive targeting of women, as there is notable interest from men in Plave. Allocate the majority of resources to explore opportunities within the 13-18 age group for female users, while for male users, focus on the 55-59 age group.</li>
+					<br>
 					
+					<blockquote>
+						<p>2. Device-related suggestions</p>
+					</blockquote>
+					<li>Despite the convenience of mobile phones, there is a clear preference for using PCs to search for Plave. Given resource constraints, prioritize targeting PC users for promoting Plave over mobile users.</li>
+					<li>Acknowledge the lower interest from mobile users and implement initiatives (e.g., user research) to enhance mobile accessibility and engagement.</li>
 					<br>
 
-					<h3 class ="blue"><b>Recommendations</b></h3>
-					<li>For PC, target those over 30 as they are more active on PC compared to mobile.</li>
-					<li>Do not target women exclusively as men are also instested in Plave.</li>
+					<blockquote>
+						<p>3. Age-related suggestions</p>
+					</blockquote>
+					<li>Capitalize on the widespread appeal of Plave across various age groups, emphasizing the diversity of the fanbase.</li>
+					<br>
 
+					<blockquote>
+						<p>4. Album release boost</p>
+					</blockquote>
+					<li>Plan comprehensive marketing strategies around album releases to capitalize on the evident peaks in search popularity.</li>
+					<li>Engage fans through pre-release teasers, exclusive content, and interactive campaigns to build anticipation.</li>
+					<li>Leverage the growing popularity trend by strategically aligning promotional efforts with album launches to maximize impact.</li>
 					<br>
 
 					<h3 class ="blue"><b>Limitations</b></h3>
-					<li>Given the reliance on public data for this visualization, the range of analyses was constrained by the limitations imposed by the way Naver manipulated the original data.</li>
-					<li>Gender classification is restricted to two categories, which could be enhanced to be more gender-inclusive.</li>
-					<li>If I had access to the raw data, I could run t-test on gender differences to see if the differences are not due to mere chance.</li>											
+					<li>The scope of analyses in this visualization was constrained by limitations inherent in the public data, shaped by the manipulations imposed by Naver on the original dataset. For instance, access to the raw data would enable the application of a t-test to assess gender differences more comprehensively and determine if the observed distinctions are statistically significant rather than mere chance.</li>
+					<li>Gender classification is currently limited to two categories, and there is an opportunity to enhance it for greater gender inclusivity.</li>
+					<li>While Naver stands as the largest search engine in Korea, its user base may not fully capture the entirety of Plave's fanbase. It is advisable to explore additional search platforms for a more comprehensive understanding.</li>
+
 				</div>
 
 

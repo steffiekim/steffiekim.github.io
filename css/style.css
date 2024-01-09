@@ -42,17 +42,28 @@ p.teaching::first-letter {
     font-size: 150%;}
 
 body {
-  font-family: "Karla", Arial, sans-serif;
-  line-height: 1.5;
-  font-size: 19px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 1.9rem;
   font-weight: 400;
   background: #f6eaea;
-  color: rgb(74, 74, 74); }
-  body.menu-show {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
+  color: rgb(74, 74, 74); 
+  display: grid;
+  place-content: center;
+  gap: 4vh;
+  min-height: 100vh;
+  width: min(60ch, 100vw - 2rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  
+body.menu-show {
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%; 
+  }
 
 #colorlib-wrapper {
   height: 100%;
@@ -272,6 +283,34 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 768px) {
     #colorlib-page {
       padding-top: 5em; } }
+
+/*******************/
+/** gradient text **/
+/*******************/
+
+:root {
+  --color-primary: hsl(295, 76%, 72%);
+  --color-secondary: hsl(191, 98%, 33%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+blockquote {
+  border-left: 5px solid;
+  margin-left: 0;
+  padding: 1rem 0 1rem 2rem;
+  font-size: 2rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    78deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
 
 /********************************************/
 /********************************************/
