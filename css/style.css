@@ -14,6 +14,7 @@
 
 .skills-row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -21,7 +22,8 @@
 .skills-row img {
   max-width: 100%;
   height: auto;
-  margin: 0 10px; /* Adjust the margin as needed for space between images */
+  margin-right: 25px; /* Adjust the value according to your preference */
+  margin-bottom: 10px; /* Add margin below each image */
 }
 
 .responsive{
@@ -880,6 +882,7 @@ header {
 #colorlib-about {
   padding: 10em 0;
   clear: both;
+  margin-bottom: 0px;
   position: relative; }
   @media screen and (max-width: 768px) {
     #colorlib-services,
