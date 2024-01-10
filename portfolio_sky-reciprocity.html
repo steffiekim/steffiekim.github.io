@@ -63,10 +63,28 @@
 	</head>
 	<body>
 	
+	<!-- Floating Menu -->
+	<div class="floating-menu">
+		<h4><b>Process</b></h4>
+		<a href="#problem">Problem</a>
+		<a href="#impact">Impact</a>
+		<a href="#questions">Research Questions</a>
+		<a href="#goals">Goals</a>
+		<a href="#design">Research Design</a>
+		<a href="#analysis">Analysis</a>
+		<a href="#findings">Findings</a>
+		<a href="#recommendation1">Initial Recommendation</a>
+		<a href="#challenges">Challenges</a>
+		<a href="#recommendation2">Revised Recommendation</a>
+		<a href="#improvement">Room for Improvement</a>
+		<a href="#more">Learn More</a>
+		<!-- Add more links as needed -->
+	</div>
+	
+	<!-- Anchor for Top of Page -->
 	<a name="top"></a>
 	
-	<div id="colorlib-page">
-		
+	<div id="colorlib-page">		
 		<header>
 			<div class="container">
 				<div class="row">
@@ -108,6 +126,8 @@
 						<h4>Survey & Behavioral Data Analysis</h4>
 					</div>
 				</div>
+				
+				<!--
 				<div class="row">
 					<div class="col-md-12">
 						<div class="rotate">
@@ -115,12 +135,15 @@
 						</div>
 					</div>
 				</div>
+				-->
+
 			</div>	
 				
+
 			<div class="container">
 				<div class="work-entry animate-box">
 					<img class="img-responsive" src="images/project_sky/sky-flying.gif">
-					<p>
+					<p>						
 					
 					<table>
 						<thead>
@@ -145,39 +168,65 @@
 					</table>
 					<br>
 
-					<h3 class ="blue"><b>The Problem</b></h3>
+					<!-- Anchor -->
+					<a name="problem"></a>
+					<h3 class ="blue"><b>Problem</b></h3> 
 					Massively multiplayer online games (MMOGs) offer social activities and foster in-game friendships. Despite this, social settings within these games can occasionally become toxic, marked by issues such as cyberbullying, harassment, and griefing. Such negative experiences can contribute to player churn. Existing literature indicates that promoting teamwork in MMOGs tends to result in positive, prosocial outcomes.
 					
 					<br><br>
 
+					<!-- Anchor -->
+					<a name="impact"></a>
+					<h3 class ="blue"><b>Impact</b></h3>
+					<li>
+						Identified design strategies to diminish player churn by enhancing positive interactions among players.</li>
+					<br>
+					
+					<!-- Anchor -->
+					<a name="questions"></a>
 					<h3 class ="blue"><b>Research Questions</b></h3>
 					<section class="component">
 						<blockquote class="sidekick">
-							How does group play encourage in-game prosocial activities?							
+							What strategies can be implemented to reduce in-game toxicity in Sky: Children of the Light?							
 					  	</blockquote>
-						  <blockquote class="sidekick">
-							How does group play benefit players?
+						<blockquote class="sidekick">
+							In what ways does group play contribute to fostering positive in-game behavior among players?							
 					  	</blockquote>
 					</section>
 
-					<h3 class ="blue"><b>The Goal</b></h3>
-					<li>Find out how group play creates in-game generosity.</li> 
-					<li>Investigate how players benefit from being generous.</li>
+					<!-- Anchor -->
+					<a name="goals"></a>
+					<h3 class ="blue"><b>Goals</b></h3>
+					<li>Explore strategies for reducing in-game toxicity in Sky: Children of the Light.</li> 
+					<li>Investigate group play and its contribution to fostering positive in-game behavior.</li>
 					
 					<br>
 					
+					<!-- Anchor -->
+					<a name="design"></a>
 					<h3 class ="blue"><b>Research Design</b></h3>
-					<li>A survey questionnaire was distributed in <i>Sky: Children of the Light</i> in November 2020.</li>
-					<li>The survey data was linked to six months of in-game player behavior log data (April to October in 2020).</li>
-					<li>A total of 1,056 unique players were analyzed.</li>
+					<div class="skills-row">
+						<img class="img-responsive" src="images/skills/qualtrics.png" width="15%" height="15%">
+						<img class="img-responsive" src="images/skills/bigQuery.png" width="15%" height="15%">						
+					</div>
+					<br>
+					<li>Developed a survey questionnaire using Qualtrics.</li>
+					<li>Deployed the survey in Sky: Children of the Light in November 2020, reaching over 20,000 players.</li>
+					<li>Extracted six months of in-game player behavior log data (April to October 2020) through Google BigQuery.</li>
+					<li>Combined survey data and behavioral data for analysis.</li>
+					<li>After thorough data cleaning, focused on analyzing a total of 1,056 unique players.</li>
 					
 					<br>								
 
+					<!-- Anchor -->
+					<a name="analysis"></a>
 					<h3 class ="blue"><b>Analysis</b></h3>
-					<img class="img-responsive" src="images/project_sky/sky_chart.png">
-					<li>Path analysis was conducted in <i>R</i> using the <i>lavaan</i> package.</li>
-					<li>A residualized covariance matrix was created by regressing all variables in the model on the control variables in advance to control for the variance accounted for by covariates (e.g., age, gender, playtime).</li>
-					<li>The residualized covariance was used to compute the path estimates.</li>
+					<div class="skills-row">
+						<img class="img-responsive" src="images/skills/Rstudio.png" width="15%" height="15%">
+					</div>
+					<br>
+					<li>Prior to analysis, a residualized covariance matrix was generated by regressing all model variables on control variables, such as age, gender, and playtime. This pre-control aimed to account for variance contributed by covariates. Path estimates were computed using the residualized covariance.</li>
+					<li>Conducted <a href="images/project_sky/sky_chart.png" target="_blank">path analysis</a>  in R employing the lavaan package.</li>
 
 					<!--
 					<br>
@@ -189,27 +238,72 @@
 
 					<br>
 
-					<h3 class ="blue"><b>Key Findings</b></h3>
-					<img class="img-responsive" src="images/project_sky/infographic-sky.png">
+					<!-- Anchor -->
+					<a name="findings"></a>
+					<h3 class ="blue"><b>Findings</b></h3>
+					<blockquote>
+						Compared to solo players, group players were:
+					</blockquote>
+					<li>More popular in game among other players.</li>
+					<li>Displayed more generous behaviors to other players.</li>
+					<li>Gained more information from other players.</li>
+					<li>Received more emotional support from other players.</li>
 					<br>
-					<li>More group play than solo play increased generosity among players increased.</li>
-					<li>Compared to solo players, group players gained more popularity, emotional support, and information from other players.</li>
-					<li>More generous players gained more information from other players and became more popular.</li>
-					<li>Being involved in groups and being generous to others increased benefits of staying in the game, which may lead to less user churn and more positive player community.</li>	
+					<blockquote>
+						Positive Behavior Chain:
+					</blockquote>
+					<li>Engaging in group play fostered increased generosity.</li>
+					<li>This heightened generosity, in turn, resulted in more information exchange with other players and enhanced popularity.</li>
+					<br>
+					<blockquote>
+						Overall Observation:
+					</blockquote>
+					<li>By encouraging group play, the in-game community becomes an appealing space where players are inclined to stay, benefiting from an augmented number of generous participants and associated perks, such as increased popularity, potentially leading to a decreased churn rate.</li>
 					
 					<br>
 
-					<h3 class ="blue"><b>Recommendations</b></h3>
-					<li>Designers/moderators should encourage natural group play activities that develop reciprocal generous behavior among players.</li>
-					<li>Group play can make the in-game community a place where players want to stay due to increased number of generous players and benefits (e.g., popularity) they can enjoy (can expect decreased churn rate).</li>
+					<!-- Anchor -->
+					<a name="recommendation1"></a>
+					<h3 class ="blue"><b>Initial Recommendation & Action</b></h3>
+					<li>Suggested increasing the implementation of group play activities.</li>
+					<li>Group activities were made mandatory for daily quests.</li>
 
 					<br>
 
-					<h3 class ="blue"><b>Unanswered Questions</b></h3>
-					<li>It would be useful to compare how forced group play and natural group play can yield different gameplay behavior.</li>
+					<!-- Anchor -->
+					<a name="challenges"></a>
+					<h3 class ="blue"><b>Challenges</b></h3>
+					<blockquote>
+						Pushback from Solo Players
+					</blockquote>
+					<li>Players who preferred solo play expressed dissatisfaction and frustration, especially as daily quests were vital for in-game currency collection.</li>
+					<br>
+					<blockquote>
+						Communications
+					</blockquote>
+					<li>Navigating diverse stakeholder communication and aligning expectations between academia and industry.</li>
+
+					<br>
+
+					<!-- Anchor -->
+					<a name="recommendation2"></a>
+					<h3 class ="blue"><b>Revised Recommendation & Action</b></h3>
+					<li>Encouraged the development of <i>organic</i> (non-mandatory) group play activities to nurture generous behavior among players.</li>
+					<li>Group acvitivies were made as part of regular, optional, and non-time-bound tasks.</li>
+
+					<br>
+
+					<!-- Anchor -->
+					<a name="improvement"></a>
+					<h3 class ="blue"><b>Room for Improvement</b></h3>
+					<li>Regularly engage with stakeholders to assess the implementation progress of recommendations.</li>
+					<li>When resources permit, iteratively measure key metrics to continually assess player sentiment and facilitate ongoing improvements.</li>
+					<li>Analyzing the effects of forced group play versus natural group play can provide valuable insights into diverse gameplay behaviors.</li>
 					
 					<br>
 
+					<!-- Anchor -->
+					<a name="more"></a>
 					<h3 class ="blue"><b>Learn More</b></h3>
 					⬇ Click below to check out my first-authored journal article published in <i>Computers in Human Behavior</i> based on this project.
 					<br>

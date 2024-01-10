@@ -78,12 +78,17 @@ a {
   color: #150f70;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+  text-decoration: none;}
   a:hover {
-    text-decoration: none;
-    color: #150f70; }
+    color: #e85fd8; }
   a:focus, a:active {
     outline: none; }
+  a:visited {
+      color: rgb(107, 0, 0);} /* Change color for visited links */
+  
+
+
 
 p, span {
   margin-bottom: 1.5em;
@@ -283,6 +288,37 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 768px) {
     #colorlib-page {
       padding-top: 5em; } }
+
+/* ------------- */
+/* Floating Menu */
+/* ------------- */
+
+.floating-menu {
+  position: fixed;
+  top: 50%; /* Adjust the position from the top as needed */
+  left: 1%;
+  transform: translateY(-50%);
+  background-color: rgba(230, 222, 222); /* Adjust the background color as needed */
+  box-shadow: 0 2px 5px rgba(59, 59, 59, 0.1); /* Add shadow for a subtle effect */
+  padding: 10px;
+  z-index: 1000; /* Ensure the menu appears above other elements */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+}
+
+.floating-menu a{
+    font-size: 0.85em;
+    display: block;
+    margin: 0 0.1em;
+    color: rgb(84, 84, 84);
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+
+/* Media query to hide the floating menu on small screens */
+@media screen and (max-width: 1680px) {
+  .floating-menu {
+    display: none;
+  }
+}
 
 /* ================ */
 /* Responsive Table */

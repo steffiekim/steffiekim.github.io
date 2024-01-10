@@ -176,3 +176,9 @@
 
 
 ());
+
+
+window.addEventListener('scroll', function () {
+    var floatingMenu = document.getElementById('floatingMenu');
+    floatingMenu.style.top = window.scrollY + 'px';
+});
