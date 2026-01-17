@@ -92,23 +92,21 @@
 					<div class="colorlib-navbar-brand">
 						<a class="colorlib-logo" href="index.html"><span>STEFFIE</span><span>KIM</span></a>
 					</div>
-
+					
 					<nav>
-					<div class="topnav" id="myTopnav">	
+						<div class="topnav" id="myTopnav">	
 
-						<!-- Navigation links in desktop mode -->
-						<a href="contact.html">CONTACT</a>
-						<a href="pubs.html">PUBLICATIONS</a>
-						<a href="talks.html">TALKS</a>
-						<a href="portfolio.html">PORTFOLIO</a>
+							<!--/* Navigation links in desktop mode */-->
+							<a href="index.html#connect">LET'S CONNECT</a>
+							<a href="index.html#portfolio">PORTFOLIO</a>
 
-						<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-							<i class="fa fa-bars"></i>
-						</a>						
-					</div>
+							<!--/* "Hamburger menu" / "Bar icon" to toggle the navigation links */-->
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+								<i class="fa fa-bars"></i>
+							</a>						
+						</div>
+					</nav> 
 
-					</nav>
 				</div>
 			</div>
 		</header>
@@ -312,7 +310,7 @@
 
 
 				<div class="row text-center">
-					<p><a href="portfolio.html" class="btn btn-primary btn-outline">See other projects</a></p>
+					<p><a href="index.html#portfolio" class="btn btn-primary btn-outline">See other projects</a></p>
 				</div>
 
 				<br>
@@ -322,17 +320,7 @@
 
 	<footer>
 		<div class="col-md-12 text-center">
-			<p>
-				<!--
-				<a href="index.html">Home</a>&nbsp;<a href="curriculumvitae.html">Background</a>&nbsp;<a href="research.html">Research</a>&nbsp;<a href="portfolio.html">Porfolio</a>&nbsp;<a href="contact.html">Contact</a>
-				<br>
-				-->
-				<a href="https://www.linkedin.com/in/steffiekim/" target="_blank"><i class="icon-linkedin"></i></a>
-				<a href="https://twitter.com/kim_steffie" target="_blank"><i class="icon-twitter"></i></a>
-				<a href="https://scholar.google.com/citations?hl=en&authuser=1&user=LYM9DfoAAAAJ" target="_blank"><i class="icon-googlescholar"></i></a>
-				<a href="https://orcid.org/0000-0002-5400-9591" target="_blank"><i class="icon-orcid"></i></a>	
-				<br>
-				
+			<p>			
 					
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					&copy; <script>document.write(new Date().getFullYear());</script> Steffie Kim. All rights reserved.
@@ -361,6 +349,27 @@
 	<script src="js/responsive_toggle.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+
+			<button id="scrollTopBtn" aria-label="Scroll to top">⬆</button>
+
+		<script>
+			const btn = document.getElementById("scrollTopBtn");
+
+			window.addEventListener("scroll", () => {
+				if (window.scrollY > 300) {
+				btn.classList.add("show");
+				} else {
+				btn.classList.remove("show");
+				}
+			});
+
+			btn.addEventListener("click", () => {
+				window.scrollTo({
+				top: 0,
+				behavior: "smooth"
+				});
+			});
+		</script>
 	
 	</body>
 </html>

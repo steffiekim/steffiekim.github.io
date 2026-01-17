@@ -40,15 +40,6 @@ div.center {
   padding-left: 5em;
   padding-right: 5em;}
 
-  /* Override .center only on mobile: */
-  @media screen and (max-width: 600px) {
-  div.center {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-  }
-}
-
 p.teaching::first-letter {
     font-size: 150%;}
 
@@ -1943,75 +1934,4 @@ overflow: hidden;
   .main .container-fluid img{
       margin-bottom: 10px
   }
-}
-
-
-@media screen and (max-width: 768px) {
-  body {
-    display: block;        /* stop grid centering */
-    width: 100%;
-    min-height: auto;
-    place-content: initial;
-    gap: 0;
-    margin: 0;
-    padding: 0 16px;       /* give mobile breathing room */
-  }
-
-  #colorlib-page {
-    padding-top: 0;        /* optional; depends on header behavior */
-  }
-}
-
-
-
-@media screen and (max-width: 768px) {
-  header {
-    position: relative;
-  }
-
-  #colorlib-about {
-    padding-top: 2em; /* adjust to taste */
-  }
-}
-
-.section-spacer {
-  display: block;
-  height: 4em;   /* Space between my bio and Key Skills in the index */
-  width: 100%;;
-}
-
-@media screen and (max-width: 768px) {
-  .section-spacer {
-    height: 3em;
-  }
-}
-
-#scrollTopBtn {
-  position: fixed;
-  bottom: 60px; /* How close the button is to the bottom */
-  right: 24px;
-  z-index: 1000;
-
-  background: #150f70;
-  color: white;
-  border: none;
-  border-radius: 50%;
-
-  width: 50px;
-  height: 50px;
-  font-size: 25px;
-
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-#scrollTopBtn.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-#scrollTopBtn:hover {
-  background: #ea7ddd;
 }
