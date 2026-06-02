@@ -2015,3 +2015,23 @@ overflow: hidden;
 #scrollTopBtn:hover {
   background: #ea7ddd;
 }
+
+/* The Container */
+.skills-row {
+    display: grid;
+    /* This automatically creates responsive columns. 
+       It fits as many 100px columns as possible, then expands them to fill space. */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px; /* Space between the logos */
+    justify-items: center; /* Centers the images horizontally in their grid cells */
+    align-items: center; /* Centers the images vertically */
+    padding: 20px 0;
+}
+
+/* The Images */
+.skills-row img.img-responsive {
+    width: 100%;          /* Take up the full width of their grid cell */
+    max-width: 120px;     /* Cap the maximum size so they don't get massive on large screens */
+    aspect-ratio: 1 / 1;  /* Forces the height to be exactly the same as the width */
+    object-fit: contain;  /* CRITICAL: Scales the image to fit inside the box WITHOUT cropping or stretching */
+}
